@@ -1,5 +1,7 @@
 package interpreter;
 
+import interpreter.interfaces.IExpression;
+
 public class MinusExpression implements IExpression {
 
 	private IExpression left;

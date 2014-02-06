@@ -1,12 +1,13 @@
 package visitor;
 
-import visitor.interfaces.Visitable;
-import visitor.interfaces.Visitor;
+import visitor.interfaces.IVisitable;
+import visitor.interfaces.IVisitor;
 
-public class DVD implements Visitable {
+
+public class DVD implements IVisitable {
 
 	@Override
-	public void accept(Visitor visitor) {
+	public void accept(IVisitor visitor) {
 		// TODO Auto-generated method stub
 
 	}

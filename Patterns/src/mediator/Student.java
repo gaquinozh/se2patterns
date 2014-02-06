@@ -1,11 +1,14 @@
 package mediator;
 
+import mediator.interfaces.ICommunicate;
+import mediator.interfaces.IDirector;
+
 public class Student implements ICommunicate {
 
-	private IDirektor direktor;
+	private IDirector direktor;
 	private boolean readyforexam;
 	
-	public Student(IDirektor direktor, boolean readyforexam) {
+	public Student(IDirector direktor, boolean readyforexam) {
 		this.direktor = direktor;
 		this.readyforexam = readyforexam;
 	}

@@ -1,8 +1,7 @@
 package prototype;
 
-import prototype.concreteprototypes.Movie;
 
-public class Tester {
+public class Test {
 
 	public static void main(String...args) {
 		Movie a = new Movie();

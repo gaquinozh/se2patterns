@@ -1,8 +1,9 @@
 package visitor;
 
-import visitor.interfaces.Visitor;
+import visitor.interfaces.IVisitor;
 
-public class PostageVisitor implements Visitor {
+
+public class PostageVisitor implements IVisitor {
 
 	private int totalPostageForCart;
 	

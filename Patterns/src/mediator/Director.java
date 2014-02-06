@@ -1,7 +1,9 @@
 package mediator;
 
+import mediator.interfaces.IDirector;
+
 // Concrete Mediator
-public class Direktor implements IDirektor {
+public class Director implements IDirector {
 
 	@SuppressWarnings("unused")
 	private Professor prof;

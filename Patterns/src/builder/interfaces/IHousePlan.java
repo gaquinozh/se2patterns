@@ -1,6 +1,6 @@
 package builder.interfaces;
 
-public interface HousePlan {
+public interface IHousePlan {
 
 	public void setBasement(String basement);
 	

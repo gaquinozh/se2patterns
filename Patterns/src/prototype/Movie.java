@@ -1,8 +1,9 @@
-package prototype.concreteprototypes;
+package prototype;
 
-import prototype.interfaces.Prototype;
+import prototype.interfaces.IPrototype;
 
-public class Movie implements Prototype {
+
+public class Movie implements IPrototype {
 	private String name = null;
 	public void setName(String name) {
 		this.name = name;

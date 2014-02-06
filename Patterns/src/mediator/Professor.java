@@ -1,10 +1,13 @@
 package mediator;
 
+import mediator.interfaces.ICommunicate;
+import mediator.interfaces.IDirector;
+
 public class Professor implements ICommunicate {
 
-	IDirektor direktor;
+	IDirector direktor;
 	
-	public Professor(IDirektor direktor) {
+	public Professor(IDirector direktor) {
 		this.direktor = direktor;
 	}
 	

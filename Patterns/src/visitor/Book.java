@@ -1,9 +1,10 @@
 package visitor;
 
-import visitor.interfaces.Visitable;
-import visitor.interfaces.Visitor;
+import visitor.interfaces.IVisitable;
+import visitor.interfaces.IVisitor;
 
-public class Book implements Visitable {
+
+public class Book implements IVisitable {
 
 	private int price;
 	private int weight;
@@ -22,7 +23,7 @@ public class Book implements Visitable {
 	}
 
 	@Override
-	public void accept(Visitor visitor) {
+	public void accept(IVisitor visitor) {
 		visitor.visit(this);
 	}
 	

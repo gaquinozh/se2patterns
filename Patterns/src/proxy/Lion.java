@@ -1,6 +1,8 @@
 package proxy;
 
-public class Lion implements Animal {
+import proxy.interfaces.IAnimal;
+
+public class Lion implements IAnimal {
 
 	@Override
 	public void getSound() {

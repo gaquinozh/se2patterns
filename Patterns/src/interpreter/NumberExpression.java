@@ -1,5 +1,7 @@
 package interpreter;
 
+import interpreter.interfaces.IExpression;
+
 public class NumberExpression implements IExpression{
 
 	private int value;

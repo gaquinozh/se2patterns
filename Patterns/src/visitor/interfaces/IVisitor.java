@@ -4,7 +4,8 @@ import visitor.Book;
 import visitor.CD;
 import visitor.DVD;
 
-public interface Visitor {
+
+public interface IVisitor {
 
 	public void visit(Book book);
 	public void visit(CD cd);

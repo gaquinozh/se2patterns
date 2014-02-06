@@ -1,8 +1,9 @@
 package builder;
 
-import builder.interfaces.HousePlan;
+import builder.interfaces.IHousePlan;
 
-public class House implements HousePlan {
+
+public class House implements IHousePlan {
 
 	private String basement;
 	private String structure;

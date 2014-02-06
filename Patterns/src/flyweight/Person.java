@@ -1,6 +1,8 @@
 package flyweight;
 
-public class Person implements PersonInterface {
+import flyweight.interfaces.IPerson;
+
+public class Person implements IPerson {
 	
 	private String name;
 	@SuppressWarnings("unused")

@@ -1,12 +1,13 @@
 package builder;
 
-import builder.interfaces.HouseBuilder;
+import builder.interfaces.IHouseBuilder;
+
 
 public class Engineer {
 
-	private HouseBuilder houseBuilder;
+	private IHouseBuilder houseBuilder;
 	
-	public Engineer(HouseBuilder houseBuilder) {
+	public Engineer(IHouseBuilder houseBuilder) {
 		this.houseBuilder = houseBuilder;
 	}
 	

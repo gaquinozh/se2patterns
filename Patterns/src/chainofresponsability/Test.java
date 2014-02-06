@@ -1,10 +1,12 @@
 package chainofresponsability;
 
+import chainofresponsability.interfaces.IChain;
+
 public class Test {
 	public static void main(String...args) {
-		Chain c1 = new PositiveProcessor();
-		Chain c2 = new ZeroProcessor();
-		Chain c3 = new NegativeProcessor();
+		IChain c1 = new PositiveProcessor();
+		IChain c2 = new ZeroProcessor();
+		IChain c3 = new NegativeProcessor();
 		c1.setNext(c2);
 		c2.setNext(c3);
 		

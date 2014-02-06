@@ -1,5 +1,7 @@
 package interpreter;
 
+import interpreter.interfaces.IExpression;
+
 public class PlusExpression implements IExpression {
 
 	private IExpression left;

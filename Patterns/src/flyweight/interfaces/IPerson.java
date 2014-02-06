@@ -1,6 +1,6 @@
-package flyweight;
+package flyweight.interfaces;
 
-public interface PersonInterface {
+public interface IPerson {
 
 	public String getName();
 	public void tellGender(String gender);

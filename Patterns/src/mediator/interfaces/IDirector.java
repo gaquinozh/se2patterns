@@ -1,7 +1,10 @@
-package mediator;
+package mediator.interfaces;
+
+import mediator.Professor;
+import mediator.Student;
 
 // MediatorInterface
-public interface IDirektor {
+public interface IDirector {
 
 	public void registerProfessor(Professor prof);
 

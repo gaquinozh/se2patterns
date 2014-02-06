@@ -1,9 +1,9 @@
-package builder.concretebuilder;
+package builder;
 
-import builder.House;
-import builder.interfaces.HouseBuilder;
+import builder.interfaces.IHouseBuilder;
 
-public class IglooBuilder implements HouseBuilder {
+
+public class IglooBuilder implements IHouseBuilder {
 
 	private House house;
 

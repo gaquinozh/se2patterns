@@ -2,7 +2,8 @@ package builder.interfaces;
 
 import builder.House;
 
-public interface HouseBuilder {
+
+public interface IHouseBuilder {
 
 	public void buildBasement();
 

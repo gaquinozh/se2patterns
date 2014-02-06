@@ -2,21 +2,23 @@ package flyweight;
 
 import java.util.ArrayList;
 
+import flyweight.interfaces.IPerson;
+
 public class PersonFactory {
 
-	private ArrayList<PersonInterface> pool;
+	private ArrayList<IPerson> pool;
 	
 	public PersonFactory() {
-		pool = new ArrayList<PersonInterface>();
+		pool = new ArrayList<IPerson>();
 	}
 	
-	public PersonInterface getPerson(String name) {
-		for(PersonInterface p : pool) {
+	public IPerson getPerson(String name) {
+		for(IPerson p : pool) {
 			if(p.getName().equals(name)) {
 				return p;
 			}
 		}
-		PersonInterface p = new Person(name);
+		IPerson p = new Person(name);
 		pool.add(p);
 		return p;
 	}

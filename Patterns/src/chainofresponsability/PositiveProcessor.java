@@ -1,11 +1,13 @@
 package chainofresponsability;
 
-public class PositiveProcessor implements Chain {
+import chainofresponsability.interfaces.IChain;
 
-	private Chain nextProcessor; 
+public class PositiveProcessor implements IChain {
+
+	private IChain nextProcessor; 
 	
 	@Override
-	public void setNext(Chain chain) {
+	public void setNext(IChain chain) {
 		this.nextProcessor = chain;
 		
 	}
