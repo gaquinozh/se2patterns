@@ -17,7 +17,7 @@ public class Student implements ICommunicate {
 	public void talk() {
 		direktor.isReadyForExam(this.readyforexam);
 		if(readyforexam == true)
-			System.out.println("I will pass the exam!");
+			System.out.println("Yes...that was easy!");
 		else
 			System.out.println("I should improve my SE skills :(...");
 	}
